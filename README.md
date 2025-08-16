@@ -1,3 +1,23 @@
+# LMS App (work-in-progress)
+
+1. Create a Supabase project and copy the Project URL and anon public key.
+2. Create a `.env.local` file with:
+
+```
+NEXT_PUBLIC_SUPABASE_URL=your-project-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+```
+
+3. Start the app:
+
+```
+npm run dev
+```
+
+4. Visit `/login` to sign up or sign in with email/password.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
